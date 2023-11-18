@@ -17,5 +17,5 @@ def test_makejudge4():
     assert result == 2
 #No5
 def test_makejudge5():
-    result = make_judge("E",[100,100,100,100,100,100,100,100,100,100])
+    result = make_judge("E",[31,31,31,31,31,31,31,100,100,100])
     assert result == 3
